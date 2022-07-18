@@ -130,3 +130,24 @@ Resource Manager - http://localhost:8088/
 
 5.Stop All Hadoop and Yarn Related Services
  sbin/stop-all.sh
+
+
+
+
+
+To turn off safe mode : 
+
+temp@rishi-si1720:~/rishi$: cd hadoop-3.2.3/
+temp@rishi-si1720:~/rishi/hadoop-3.2.3$ ls
+bin  etc  include  lib  libexec  LICENSE.txt  logs  NOTICE.txt  README.txt  sbin  share
+temp@rishi-si1720:~/rishi/hadoop-3.2.3$ cd bin
+temp@rishi-si1720:~/rishi/hadoop-3.2.3/bin$ ls
+container-executor  hadoop.cmd  hdfs.cmd  mapred.cmd    test-container-executor  yarn.cmd
+hadoop              hdfs        mapred    oom-listener  yarn
+temp@rishi-si1720:~/rishi/hadoop-3.2.3/bin$ ./hadoop dfsadmin -safemode leave
+WARNING: Use of this script to execute dfsadmin is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfsadmin" instead.
+
+Safe mode is OFF
+
+
