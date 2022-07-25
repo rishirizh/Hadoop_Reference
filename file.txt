@@ -3,8 +3,6 @@ Single node setup on local machine.
 https://www.youtube.com/watch?v=Z-LnXz2mIHg
 
 
-Youtube.com/atozknowledgevideos
-
 															Hadoop-2 Single Node Cluster Creation Installation
 															-----------------------------------------------------------------
 1. Download Hadoop and Java
