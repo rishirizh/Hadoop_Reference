@@ -1,0 +1,5 @@
+hadoop fs -ls /
+
+hadoop fs -copyFromLocal /home/sas/rishi/file1.txt /file1.txt
+
+
