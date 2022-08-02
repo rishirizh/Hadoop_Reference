@@ -1,10 +1,4 @@
-172.20.37.96
-- DataNode
 
-172.20.56.234
-- Namenode
-
-p9XzNx007D3
 
 
 zkServer.sh start
